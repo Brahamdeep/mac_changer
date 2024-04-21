@@ -2,6 +2,21 @@
 
 A MAC address is a unique identifier assigned to a network interface controller for use as a network address in communications within a network segment.
 
+## Installation
+
+```# Git Installation
+sudo apt install git
+
+# Git Clone
+git clone https://github.com/R3DHULK/mac-changer-in-python
+
+# Change Directory
+cd mac-changer-in-python
+
+# Run This Tool
+python mac-changer.py -i (interface) -m (new mac)
+```
+
 ## Usage
 
 When we type `ifconfig` on the terminal we see the following output -
@@ -19,6 +34,8 @@ When we type `ifconfig` on the terminal we see the following output -
 
 ### After running the command
 
-the mac address had been changed to the desired address.
+The mac address had been changed to the desired address.
 
 ![alt text](image-2.png)
+
+![alt text](image-3.png)
