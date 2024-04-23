@@ -8,7 +8,7 @@ A MAC address is a unique identifier assigned to a network interface controller 
 sudo apt install git
 
 # Git Clone
-git clone https://github.com/R3DHULK/mac-changer-in-python
+git clone https://github.com/Brahamdeep/mac_changer.git
 
 # Change Directory
 cd mac-changer-in-python
